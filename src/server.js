@@ -13,6 +13,7 @@ app.post("/sign-up", (req, res)=>{
 
 })
 
+aaaaaaaaaaaaaaaa
 
 app.get('/users', (req, res)=> {
     let users =JSON.parse(fs.readFileSync(path.join(process.cwd(), 'src', "database", "users.json"), "utf-8")) || []
